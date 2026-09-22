@@ -1,0 +1,86 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Wolfram 14.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       154,          7]
+NotebookDataLength[      2687,         78]
+NotebookOptionsPosition[      2213,         61]
+NotebookOutlinePosition[      2604,         77]
+CellTagsIndexPosition[      2561,         74]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"Get", "[", "\"\</path/to/verify_turn_tables.wl\>\"", "]"}], ";"}],
+   "\[IndentingNewLine]"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"report", "=", 
+    RowBox[{"TurnTableVerification`VerifyTurnTables", "[", "]"}]}], ";"}], 
+  "\[IndentingNewLine]"}], "\n", 
+ RowBox[{"KeyTake", "[", 
+  RowBox[{"report", ",", 
+   RowBox[{"{", 
+    RowBox[{"\"\<AllPassed\>\"", ",", "\"\<CubesChecked\>\"", 
+     ",", "\"\<TetrahedraChecked\>\"", ",", "\"\<ExceptionalCubesPerTurn\>\"",
+      ",", "\"\<Table3MissingColorClaimsChecked\>\"", 
+     ",", "\"\<AffineColorPatternsChecked\>\""}], "}"}]}], "]"}]}], "Input",
+ CellChangeTimes->{{3.999067482135229*^9, 3.9990674821379623`*^9}, {
+  3.9990675249356194`*^9, 3.999067527085046*^9}, {3.999067566992256*^9, 
+  3.9990675683151293`*^9}, {3.999068043917824*^9, 
+  3.99906804712747*^9}},ExpressionUUID->"5c2b57b6-09cb-49f9-9cf3-\
+c9cf6a23d030"],
+
+Cell[BoxData[
+ RowBox[{"\[LeftAssociation]", 
+  RowBox[{
+   RowBox[{"\<\"AllPassed\"\>", "\[Rule]", "True"}], ",", 
+   RowBox[{"\<\"CubesChecked\"\>", "\[Rule]", "432"}], ",", 
+   RowBox[{"\<\"TetrahedraChecked\"\>", "\[Rule]", "2592"}], ",", 
+   RowBox[{"\<\"ExceptionalCubesPerTurn\"\>", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"3", ",", "5", ",", "5", ",", "4"}], "}"}]}], ",", 
+   RowBox[{"\<\"Table3MissingColorClaimsChecked\"\>", "\[Rule]", "102"}], ",", 
+   RowBox[{"\<\"AffineColorPatternsChecked\"\>", "\[Rule]", "25"}]}], 
+  "\[RightAssociation]"}]], "Output",
+ CellChangeTimes->{3.999067577244347*^9},
+ CellLabel->"Out[3]=",ExpressionUUID->"5c20c30b-9d85-45b0-9175-d2aec1360542"]
+}, Open  ]]
+},
+WindowSize->{808, 716},
+WindowMargins->{{Automatic, 49}, {Automatic, 0}},
+FrontEndVersion->"14.3 for Mac OS X ARM (64-bit) (July 8, 2025)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"72cf3439-47df-47bf-8fce-6ae9af052b66"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[576, 22, 925, 21, 151, "Input",ExpressionUUID->"5c2b57b6-09cb-49f9-9cf3-c9cf6a23d030"],
+Cell[1504, 45, 693, 13, 74, "Output",ExpressionUUID->"5c20c30b-9d85-45b0-9175-d2aec1360542"]
+}, Open  ]]
+}
+]
+*)
+
